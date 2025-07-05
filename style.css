@@ -91,6 +91,10 @@ h2 {
     display: flex;
 }
 
+.card:hover {
+    transform: scale(1.05);
+}
+
 .cards .card {
     float: left;
     width: 30%;
@@ -101,6 +105,7 @@ h2 {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.356);
     border: 1px solid #304458;
     border-radius: 10px;
+    transition: 0.5s all;
 }
 
 .cards .card p {
@@ -133,6 +138,7 @@ h2 {
     max-width: 240px;
     border-radius: 10px;
 }
+
 .cartao p {
     line-height: 1.5em;
     color: white;
